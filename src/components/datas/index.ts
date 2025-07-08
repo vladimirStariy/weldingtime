@@ -1,0 +1,1 @@
+export { mainMenuData } from './main.menu.data'
