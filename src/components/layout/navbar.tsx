@@ -10,7 +10,7 @@ type TProps = {
 
 export const Navbar = ({ menu }:TProps) => {
   return (
-    <div className="fixed top-0 h-[var(--navbar-height)] w-full bg-black flex flex-row items-center">
+    <div className="fixed top-0 h-[var(--navbar-height)] w-full bg-black flex flex-row items-center text-white">
       <Container>
         <div className="flex flex-row items-center justify-between">
           <span className="uppercase font-bold text-lg">Велдинг тайм</span>
